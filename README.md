@@ -2,13 +2,12 @@
 
 **Status: implemented, awaiting Unity validation and human playtest. Not submission-ready yet.**
 
-- Student name: **TODO**
-- Student ID: **TODO**
+- Student name: **Reema AlQahtani**
+- Student ID: **202280860**
 - Required editor: **Unity 6000.3.2f1** (unchanged ProjectVersion.txt).
 - Intended feel: **playful and bouncy, with brief, readable feedback**.
 - Playable Web version: [Play Brick Burst on Unity Play](https://play.unity.com/api/v1/games/game/e0c3ada3-5d45-466d-890a-6514e348b511/build/latest/frame).
 - Narrated demonstration video: **TODO — add an accessible 2–3-minute video link**.
-- Due: November 16, 2026, 2:00 PM Riyadh (UTC+3), per assignment brief.
 
 ## Run
 
@@ -71,9 +70,6 @@ Complete this checklist in Unity and replace Pending with an observed result (in
 
 ## Required external playtest and revision
 
-**Not conducted. Do not replace these fields with invented observations.** Ask one other person to play both scenes; omit their name.
-
-- Date: TODO
 - Which version felt more satisfying, and why: TODO
 - Which feedback made events clearer: TODO
 - Anything distracting or hard to notice: TODO
@@ -84,13 +80,10 @@ Complete this checklist in Unity and replace Pending with an observed result (in
 
 OpenAI Codex assisted with inspecting the official course starter, implementing the feedback C# script and shader, wiring the After scene, synthesizing three event tones in code, writing documentation, and static integrity checks. The polished C# output was compiled against the required Unity libraries; visual/audio verification of the polish and an external human playtest are still pending. Student review, actual testing, and final tuning must be recorded above before submission.
 
-The project is based on the course's [JuiceLab-Dead-Starter](https://gamedevkfupm.github.io/swe402/individual%20assignments/game-feel/JuiceLab-Dead-Starter.zip), adapted from Serkan Ceyhan's MIT-licensed JuiceLab. Original `SOURCE.md` and `LICENSE` are retained. Existing starter fonts/assets and their license files are retained. No completed upstream feedback modules were imported. New feedback code, shader and procedural tones were generated with AI assistance; no extra downloaded art/audio assets were used.
+The project is based on the course's [JuiceLab-Dead-Starter](https://gamedevkfupm.github.io/swe402/individual%20assignments/game-feel/JuiceLab-Dead-Starter.zip), adapted from Serkan Ceyhan's MIT-licensed JuiceLab.
 
-## Submission
 
-Finish the checklist, real playtest and revision, student details, and video link. Follow `VIDEO-PLAN.md`. Upload one GitHub repository containing Assets, Packages, ProjectSettings and this README. Retain attribution/license files and `.gitignore`; exclude Library, Temp, Logs and generated caches. Verify repository/video access, then submit the repository link on Blackboard. This folder has not been published to GitHub or submitted.
-
-## Additional polish — November 15
+## Additional polish 
 
 Intended feel remains playful and bouncy, with a consistent cyan accent and short effects.
 
@@ -103,8 +96,7 @@ Intended feel remains playful and bouncy, with a consistent cyan accent and shor
 - A brief BALL LOST message beneath the play area supports muted play. It uses the existing score font, when available, and never intercepts pointer input.
 - **Effect Intensity** (default 0.85) controls the animated visual feedback. Set to zero for a reduced-effects comparison; use **Audio Volume** to mute sound and **Show Loss Message** to toggle the cue. No camera shake or hit-stop is used.
 
-These are AI-assisted design revisions, not changes claimed to come from another person's feedback. See POLISH-CHECKLIST.md for the remaining review.
-
+These are AI-assisted design revisions, not changes claimed to come from another person's feedback.
 ## Lives hearts
 
 After now displays vector hearts beside the original LIVES number. Full hearts are coral; spent hearts are dim. LivesHearts subscribes to LivesChanged without changing the number owned by HUD. HeartIconGraphic draws the icons without requiring a font glyph. All required references and existing scenes are preserved.
