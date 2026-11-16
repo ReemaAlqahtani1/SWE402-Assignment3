@@ -70,7 +70,7 @@ Before remains the baseline. Shared core and gameplay scripts were retained. Act
 
 ## AI use
 
-I used **OpenAI ChatGPT/Codex** to help explain the assignment, inspect the starter, implement and debug C# feedback and UI components, create the unlit shader and procedural sounds, and draft documentation. I also learned how an unlit shader keeps effect colors independent of scene lighting.
+I used **OpenAI ChatGPT/Codex** to help implement and debug C# feedback and UI components, create the unlit shader and procedural sounds, and draft documentation. I also learned how an unlit shader keeps effect colors independent of scene lighting.
 
 I reviewed the results in Unity, recorded gameplay with audio, reported runtime errors for correction, and requested revisions to the lives display, menus, text readability, and paddle and brick appearance. AI-assisted compilation and code inspection were used alongside my Unity testing; they were not treated as substitutes for playtesting.
 
